@@ -1,9 +1,8 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# NestJS Starter Template
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+![React + Vite + TS + SWC + TW Starter Template](https://banners-laravel-ready.vercel.app/NestJS%20Starter%20Template.png?theme=light&packageManager=&packageName=&pattern=architect&style=style_1&description=Contains+only+basic+configs+and+PNPM&md=1&showWatermark=1&watermarkText=Awe+Templates&fontSize=100px&images=variable)
+
+This is a simple starter template for [NestJS](https://nestjs.com/) projects. It includes only basic configs and [PNPM](https://pnpm.io/).
 
 ## 📦 Installation
 
