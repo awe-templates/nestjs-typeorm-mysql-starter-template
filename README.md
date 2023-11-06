@@ -41,3 +41,35 @@ $ pnpm run test:e2e
 # test coverage
 $ pnpm run test:cov
 ```
+
+### Example Commands
+
+Create a module
+
+```bash
+nest g mo app/modules/<module-name>
+```
+
+Create a controller
+
+```bash
+nest g co app/modules/<module-name>/<controller-name>
+```
+
+Create a service
+
+```bash
+nest g s app/modules/<module-name>/<service-name>
+```
+
+Create a pipe
+
+```bash
+nest g pi app/modules/<module-name>/<pipe-name>
+```
+
+Create a model
+
+```bash
+nest g cl app/shared/<model-name>
+```
