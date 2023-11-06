@@ -43,6 +43,8 @@ pnpm run test:cov
 
 ### Example Commands
 
+#### NestJS
+
 Create a module
 
 ```bash
@@ -71,4 +73,25 @@ Create a model
 
 ```bash
 nest g cl app/shared/<model-name>
+```
+
+#### TypeORM
+
+Create a migration
+
+```bash
+# create migration
+npm run typeorm:direct migration:create src/database/migrations/Create<table-name>Table
+
+# run migrations
+npm run typeorm migration:run
+
+# revert migrations
+npm run typeorm migration:revert
+
+# show status of migrations
+npm run typeorm migration:show
+
+# drop all migrations
+npm run typeorm schema:drop
 ```
