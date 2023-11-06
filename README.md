@@ -77,8 +77,6 @@ nest g cl app/shared/<model-name>
 
 #### TypeORM
 
-Create a migration
-
 ```bash
 # create migration
 npm run typeorm:direct migration:create src/database/migrations/Create<table-name>Table
