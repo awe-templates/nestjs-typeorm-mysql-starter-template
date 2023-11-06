@@ -11,10 +11,12 @@ import { typeOrmMySqlDbConfig } from "./configs/mysql.config"
     ConfigModule.forRoot({
       isGlobal: true
     }),
-    UserModule,
     TypeOrmModule.forRootAsync({
       useFactory: typeOrmMySqlDbConfig
-    })
+    }),
+
+    // project modules
+    UserModule
   ],
   controllers: [AppController],
   providers: [AppService]
