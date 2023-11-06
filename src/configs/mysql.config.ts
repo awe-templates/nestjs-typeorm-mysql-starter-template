@@ -1,5 +1,6 @@
 import { DataSource } from "typeorm"
 import { TypeOrmModuleOptions } from "@nestjs/typeorm"
+import { SnakeNamingStrategy } from "typeorm-naming-strategies"
 
 export const typeOrmMySqlDbConfig = (): TypeOrmModuleOptions => ({
   type: "mysql",
@@ -9,7 +10,8 @@ export const typeOrmMySqlDbConfig = (): TypeOrmModuleOptions => ({
   password: process.env.DATABASE_PASSWORD || "",
   database: process.env.DATABASE_NAME || "nest_starter_typeorm_mysql",
   entities: [__dirname + "/app/**/*.entity{.ts,.js}"],
-  synchronize: process.env.TYPEORM_SYNCHRONIZE === "true" || false
+  synchronize: process.env.TYPEORM_SYNCHRONIZE === "true" || false,
+  namingStrategy: new SnakeNamingStrategy()
 })
 
 export const appDataSource = new DataSource({
