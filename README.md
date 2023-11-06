@@ -5,17 +5,18 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-## Description
+## 📦 Installation
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### Setup .env File
 
-## Installation
+Copy `.env.example` file and rename as `.env`. Then you can specify your configs.
+
 
 ```bash
 $ pnpm install
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
@@ -28,7 +29,7 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
