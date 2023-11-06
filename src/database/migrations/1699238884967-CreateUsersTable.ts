@@ -7,11 +7,9 @@ export class addUsersTable1632265766763 implements MigrationInterface {
     const columns = [
       new TableColumn({
         name: "id",
-        type: "uuid",
+        type: "bigint",
         isPrimary: true,
-        isUnique: true,
-        generationStrategy: "uuid",
-        default: "uuid_generate_v4()"
+        isUnique: true
       }),
       new TableColumn({
         name: "name",
@@ -46,36 +44,33 @@ export class addUsersTable1632265766763 implements MigrationInterface {
       }),
       new TableColumn({
         name: "created_at",
-        type: "timestamptz",
-        isNullable: true,
+        type: "timestamp",
         default: `CURRENT_TIMESTAMP`
       }),
       new TableColumn({
         name: "created_by",
-        type: "uuid",
+        type: "bigint",
         isNullable: true
       }),
       new TableColumn({
         name: "updated_at",
-        type: "timestamptz",
-        isNullable: true
-        // default: `CURRENT_TIMESTAMP`,
+        type: "timestamp",
+        default: `CURRENT_TIMESTAMP`
       }),
       new TableColumn({
         name: "updated_by",
-        type: "uuid",
+        type: "bigint",
         isNullable: true,
         default: null
       }),
       new TableColumn({
         name: "deleted_at",
-        type: "timestamptz",
+        type: "timestamp",
         isNullable: true
-        // default: `CURRENT_TIMESTAMP`,
       }),
       new TableColumn({
         name: "deleted_by",
-        type: "uuid",
+        type: "bigint",
         isNullable: true,
         default: null
       })
