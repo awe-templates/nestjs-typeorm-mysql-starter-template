@@ -13,33 +13,33 @@ Copy `.env.example` file and rename as `.env`. Then you can specify your configs
 
 
 ```bash
-$ pnpm install
+pnpm install
 ```
 
 ### Running the app
 
 ```bash
 # development
-$ pnpm run start
+pnpm run start
 
 # watch mode
-$ pnpm run start:dev
+pnpm run start:dev
 
 # production mode
-$ pnpm run start:prod
+pnpm run start:prod
 ```
 
 ### Test
 
 ```bash
 # unit tests
-$ pnpm run test
+pnpm run test
 
 # e2e tests
-$ pnpm run test:e2e
+pnpm run test:e2e
 
 # test coverage
-$ pnpm run test:cov
+pnpm run test:cov
 ```
 
 ### Example Commands
