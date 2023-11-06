@@ -9,7 +9,9 @@ export class addUsersTable1632265766763 implements MigrationInterface {
         name: "id",
         type: "bigint",
         isPrimary: true,
-        isUnique: true
+        isUnique: true,
+        isGenerated: true,
+        generationStrategy: "increment"
       }),
       new TableColumn({
         name: "name",
