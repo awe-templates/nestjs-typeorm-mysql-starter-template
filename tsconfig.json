@@ -18,9 +18,9 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-        "app/*": ["./src/app/*"],
-        "shared/*": ["./src/app/shared/*"],
-        "modules/*": ["./src/app/modules/*"]
+        "@app/*": ["./src/app/*"],
+        "@shared/*": ["./src/app/shared/*"],
+        "@modules/*": ["./src/app/modules/*"]
     }
   }
 }
