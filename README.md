@@ -1,8 +1,8 @@
-# NestJS Starter Template
+# NestJS TypeORM MySQL Starter Template
 
-![React + Vite + TS + SWC + TW Starter Template](https://banners-laravel-ready.vercel.app/NestJS%20Starter%20Template.png?theme=light&packageManager=&packageName=&pattern=architect&style=style_1&description=Contains+only+basic+configs+and+PNPM&md=1&showWatermark=1&watermarkText=Awe+Templates&fontSize=100px&images=variable)
+![NestJS TypeORM MySQL Starter Template](https://banners-laravel-ready.vercel.app/NestJS%20TypeORM%20Starter%20Template.png?theme=light&packageManager=&packageName=&pattern=architect&style=style_1&description=Simple+NestJs+and+TypeORM+starter+template&md=1&showWatermark=1&watermarkText=Awe+Templates&fontSize=100px&images=variable)
 
-This is a simple starter template for [NestJS](https://nestjs.com/) projects. It includes only basic configs and [PNPM](https://pnpm.io/).
+This is a simple starter template for [NestJS](https://nestjs.com/) projects. It includes only basic configs, [TypeORM](https://typeorm.io/), [MySQL](https://www.mysql.com/) and [PNPM](https://pnpm.io/). 
 
 ## 📦 Installation
 
